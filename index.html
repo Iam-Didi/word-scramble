@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="word.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Scramble Game</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h2>Word Scramble</h2>
-        <div class="content"></div>
-          <p class=""></p>
+        <div class="content">
+            <p class="word">enaxpnios</p>
+            <div class="details">
+                <p class="hint">Hint: <span>The process of incraese or grow</span></p>
+                <p class="time">Time left: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" placeholder="Enter a valid word">
+            <div class="buttons">
+                <button class="refresh-word">Refresh-Word</button>
+                <button class="check-word">Check-Word</button>
+            </div>
+        </div>
+          
     </div>
     
 </body>
